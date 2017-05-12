@@ -13,6 +13,7 @@
 
 
 #include "HSerialController.hpp"
+#include "HSerialExceptions.hpp"
 
 
 namespace hserial {
@@ -840,7 +841,7 @@ namespace hserial {
             std::stringstream ss;
             ss << "The controller must be active to call " << (funcName ? funcName : "NULL")
                 << ". Inactive controller: " << controller.getDescription() << ".";
-            throw std::logic_error(ss.str());
+            throw NotActiveController(ss.str());
         }
     }
 
