@@ -1,6 +1,6 @@
 # HSerial
 
-This project is in active development and I expect API breaking changes May-August 2017.
+This project is in active development and I expect API breaking changes ~~May-August 2017~~ whenever (not abandoned yet).
 
 Full documentation (including internal/private stuff):  
 http://siedell.com/projects/HSerial/docs/full/
